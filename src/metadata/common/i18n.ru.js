@@ -5,7 +5,7 @@
 export default function ($p) {
 
   Object.assign($p.msg, {
-    main_title: "Администрирование пользователей ",
+    main_title: "Общие справочники ",
   });
 }
 

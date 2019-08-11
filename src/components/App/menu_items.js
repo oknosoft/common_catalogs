@@ -1,13 +1,14 @@
 import React from 'react';
-import IconChart from '@material-ui/icons/InsertChart';
+//import IconChart from '@material-ui/icons/InsertChart';
 //import IconDoc from '@material-ui/icons/EventNote';
+import IconColor from '@material-ui/icons/ColorLens';
 import IconInfo from '@material-ui/icons/Info';
-import IconHelp from '@material-ui/icons/Help';
-import IconPerson from '@material-ui/icons/Person';
+//import IconHelp from '@material-ui/icons/Help';
+//import IconPerson from '@material-ui/icons/Person';
 import IconSettings from '@material-ui/icons/Settings';
-import IconBusiness from '@material-ui/icons/Business';
-import IconPeople from '@material-ui/icons/People';
-import IconRouter from '@material-ui/icons/Router';
+//import IconBusiness from '@material-ui/icons/Business';
+//import IconPeople from '@material-ui/icons/People';
+//import IconRouter from '@material-ui/icons/Router';
 
 export const stitle = 'common-catalogs';
 export const htitle = 'Общие справочники';
@@ -21,7 +22,7 @@ const items = [
     navigate: '/cat.clrs/list',
     need_meta: true,
     need_user: true,
-    icon: <IconRouter/>,
+    icon: <IconColor/>,
   },
   // {
   //   text: 'Пользователи',
